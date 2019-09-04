@@ -73,13 +73,17 @@ X-SpringBoot
 **部署** 
 - 后台部署
  ```
-   1、 $git clone https://github.com/yzcheng90/X-SpringBoot.git
+   1、克隆代码
    
-   2 、IDEA 打开项目引入依赖
+   2、IDEA 打开项目引入依赖
    
-   3、 创建数据库x_springboot，数据库编码为UTF-8，执行doc/db.sql文件，初始化数据
+   3、创建数据库x_springboot，数据库编码为UTF-8，执行doc/db.sql文件，初始化数据
    
-   4、 IDEA运行Application.java，则可启动项目 http://localhost:8080
+   4、查看application.yml 配置文件中 spring.profiles.active中对应的值，修改对应的application-xxx.yml文件。如值为dev，则修改application-dev.yml 中的数据库连接IP用户密码。
+   
+   5、注意pom文件中的mysql-connector-java的版本
+   
+   6、IDEA运行Application.java，则可启动项目 http://localhost:8080
  ```
 - 前台部署
  ```
