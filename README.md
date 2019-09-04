@@ -109,6 +109,8 @@ X-SpringBoot
         ( 这里建议直接复制项目中的doc/nginx.conf替换你的nginx配置文件，然后修改静态页面目录 )
         
      3、启动nginx 访问 localhost
+     
+     4、启动Redis
  ```
 
 **系统截图**
